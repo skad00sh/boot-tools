@@ -1,5 +1,5 @@
-Kernel-Tools
-============
+Kernel-Tools for MSM7x30 devices
+================================
 
 Misc. Kernel unpack-pack/development tools
 

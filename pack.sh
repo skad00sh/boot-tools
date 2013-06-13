@@ -29,7 +29,7 @@ sleep 2
 sleep 2
 echo "Packing final Kernel (boot.img) "
 mkdir -p out
-./tools/mkbootimg --kernel kernel/zImage --ramdisk ramdisk.gz -o out/boot.img --base 0x00200000 
+./tools/mkbootimg --kernel kernel/zImage --ramdisk ramdisk.gz -o out/boot.img --base 0x00200000 --pagesize 4096
 sleep 2
 setterm -bold 
 rm ramdisk.gz

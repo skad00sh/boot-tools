@@ -6,7 +6,7 @@ setterm -bold
 echo "******************************"
 echo "**** Kernel Unpack Script ****"
 echo "**** For Xperia **************"
-echo "**** By Rachit Rawat *********"
+echo "**** By Shivam Kuchhal *******"
 echo "******************************"
 tput sgr0 
 setterm -bold 
